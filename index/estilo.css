@@ -1,0 +1,14 @@
+.cuerpo{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+.cabeza{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(3, 200, 226);
+}
+.menu{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    background-color: rgb(3, 200, 226);
+}

@@ -17,8 +17,9 @@ table {
 }
 caption {
     font-size: 1.2em;
-    margin-bottom: 10px;
     color: #000000;
+    background-color: #fbff1b;
+    padding: 8px;
 }
 th, td {
     border: 2px solid #ff0000;

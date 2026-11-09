@@ -6,12 +6,14 @@ body {
 
 header {
     background-color: gold;
+    color: black;
     text-align: center;
     padding: 10px;
 }
 
 footer {
     background-color: gold;
+    color: black;
     text-align: center;
     padding: 10px;
 }
@@ -21,23 +23,35 @@ h2 {
 }
 
 .Registro {
-    background-color: gray;
+    background-color: #333333;
+    color: white;
     width: 350px;
     margin: 0 auto;
     padding: 35px;
     border-radius: 10px;
 }
 
+.registro label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registro input[type="checkbox"]+label {
+    display: inline;
+}
+
 .label {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 select {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .Boton_registro {

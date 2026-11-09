@@ -1,36 +1,45 @@
-.cuerpo{
+.cuerpo {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+
+}
+
+.cabeza {
     display: grid;
     grid-template-rows: auto auto auto auto;
 }
-.cabeza{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: rgb(3, 200, 226);
-}
-.menu{
+
+.menu {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    background-color: rgb(3, 200, 226);
 }
 
 .mitad {
     display: flex;
-    justify-content: space-between; 
-    gap: 20px;                     
-    align-items: flex-start;        
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
     padding: 20px;
 }
 
 
 .izq {
-    flex: 1;                           
+    flex: 1;
     padding: 15px;
     border-radius: 8px;
 }
 
 
 .der {
-    flex: 1;                          
+    flex: 1;
     padding: 15px;
     border-radius: 8px;
+    background-color: rgb(75, 75, 74);
+}
+
+.pie {
+    padding: 10px;
+}
+.e{
+    color: rgb(236, 232, 232);
 }

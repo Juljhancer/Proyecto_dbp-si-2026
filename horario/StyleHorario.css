@@ -3,34 +3,42 @@ body {
     background-color: #ffffff;
     margin: 20px;
 }
+header {
+    text-align: center;
+}
+h1 {
+    color: #000000;
+}
 table {
     margin: 0 auto;
     border-collapse: collapse;
     border: 2px solid #ff0202;
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
 }
 caption {
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 1.2em;
     margin-bottom: 10px;
-    color: #030303;
+    color: #000000;
 }
 th, td {
     border: 2px solid #ff0000;
     padding: 10px 14px;
     text-align: center;
+}
+td {
     color: #fbff1b;
 }
 th {
     background-color: #fbff1b;
-    color: rgb(249, 0, 0);
+    color: #000000;
 }
-td:first-child {
-    font-weight: bold;
-    background-color: #fbff1b;
-    color: rgb(255, 0, 0);
+td.libre {
+    background-color: #8b0000;
+    color: #ffffff;
+    font-style: italic;
 }
-td[colspan] {
-    background-color: #d94848;
+td.libre {
+    background-color: #8b0000;
+    color: #ffffff;
     font-style: italic;
 }

@@ -14,67 +14,69 @@
         <h1>Formulario Valhalla GYM</h1>
     </header>
     <h2>Inscripcion</h2>
-    <form name="Datos del cliente" id="Formulario">
-        <div class="Registro">
-            <label for="Nombre">Nombre Completo</label>
-            <input type="text" id="Nombre" name="Nombre" class="label" placeholder="Ingrese tu Nombre Completo"><br>
+    <div class="contenedor-formulario">
+        <form name="Datos del cliente" id="Formulario">
+            <div class="Registro">
+                <label for="Nombre">Nombre Completo</label>
+                <input type="text" id="Nombre" name="Nombre" class="label" placeholder="Ingrese tu Nombre Completo"><br>
 
-            <label for="Edad">Edad</label>
-            <input type="number" id="Edad" name="Edad" class="label" placeholder="Ingresa tu edad"><br>
+                <label for="Edad">Edad</label>
+                <input type="number" id="Edad" name="Edad" class="label" placeholder="Ingresa tu edad"><br>
 
-            <label for="Dias">Dias de entreno a la semana</label>
-            <input type="number" id="Dias" name="Dias" class="label"
-                placeholder="Ingrese dias de entreno a la semana"><br>
+                <label for="Dias">Dias de entreno a la semana</label>
+                <input type="number" id="Dias" name="Dias" class="label"
+                    placeholder="Ingrese dias de entreno a la semana"><br>
 
-            <fieldset>
-                <legend>Qué grupo de músculos quiere entrenar</legend>
+                <fieldset>
+                    <legend>Qué grupo de músculos quiere entrenar</legend>
 
-                <div class="opcion">
-                    <input type="checkbox" id="pecho" name="Pecho" value="Pecho">
-                    <label for="pecho">Pecho</label>
+                    <div class="opcion">
+                        <input type="checkbox" id="pecho" name="Pecho" value="Pecho">
+                        <label for="pecho">Pecho</label>
+                    </div>
+
+                    <div class="opcion">
+                        <input type="checkbox" id="espalda" name="Espalda" value="Espalda">
+                        <label for="espalda">Espalda</label>
+                    </div>
+
+                    <div class="opcion">
+                        <input type="checkbox" id="piernas" name="Piernas" value="Piernas">
+                        <label for="piernas">Piernas</label>
+                    </div>
+
+                    <div class="opcion">
+                        <input type="checkbox" id="brazos" name="Brazos" value="Brazos">
+                        <label for="brazos">Brazos</label>
+                    </div>
+
+                    <div class="opcion">
+                        <input type="checkbox" id="abdomen" name="Abdomen" value="Abdomen">
+                        <label for="abdomen">Abdomen</label>
+                    </div>
+
+                    <div class="opcion">
+                        <input type="checkbox" id="hombros" name="Hombros" value="Hombros">
+                        <label for="hombros">Hombros</label>
+                    </div>
+                </fieldset>
+
+                <label for="Entrenador">Entrenadores</label>
+                <select name="Entrenador" id="Entrenador">
+                    <option value="0">Seleccione un entrenador</option>
+                    <option value="1">Juljhancer Cañarte</option>
+                    <option value="2">Neicer Loor</option>
+                    <option value="3">Erick Arguello</option>
+                    <option value="4">Juleidy Briones</option>
+                    <option value="5">Cristina Bermúdez</option>
+                    <option value="6">Valeria Zambrano</option>
+                </select>
+                <div class="Boton_registro">
+                    <input type="submit" value="Registrarse">
+                    <input type="reset" value="Borrar registro">
                 </div>
-
-                <div class="opcion">
-                    <input type="checkbox" id="espalda" name="Espalda" value="Espalda">
-                    <label for="espalda">Espalda</label>
-                </div>
-
-                <div class="opcion">
-                    <input type="checkbox" id="piernas" name="Piernas" value="Piernas">
-                    <label for="piernas">Piernas</label>
-                </div>
-
-                <div class="opcion">
-                    <input type="checkbox" id="brazos" name="Brazos" value="Brazos">
-                    <label for="brazos">Brazos</label>
-                </div>
-
-                <div class="opcion">
-                    <input type="checkbox" id="abdomen" name="Abdomen" value="Abdomen">
-                    <label for="abdomen">Abdomen</label>
-                </div>
-
-                <div class="opcion">
-                    <input type="checkbox" id="hombros" name="Hombros" value="Hombros">
-                    <label for="hombros">Hombros</label>
-                </div>
-            </fieldset>
-
-            <label for="Entrenador">Entrenadores</label>
-            <select name="Entrenador" id="Entrenador">
-                <option value="0">Seleccione un entrenador</option>
-                <option value="1">Juljhancer Cañarte</option>
-                <option value="2">Neicer Loor</option>
-                <option value="3">Erick Arguello</option>
-                <option value="4">Juleidy Briones</option>
-                <option value="5">Cristina Bermúdez</option>
-                <option value="6">Valeria Zambrano</option>
-            </select>
-            <div class="Boton_registro">
-                <input type="submit" value="Registrarse">
-                <input type="reset" value="Borrar registro">
             </div>
-        </div>
+    </div>
     </form>
     <footer>
         <p>Derechos reservados Valhalla GYM</p>
